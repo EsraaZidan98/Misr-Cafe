@@ -1,0 +1,72 @@
+  .section1 {
+      background-image: url(Picture8.png);
+      width: 1519px;
+      height: 90vh;
+      background-size: cover;    
+      background-position: center;  
+      background-repeat: no-repeat; 
+  }
+
+  .container{
+      padding-bottom: 200px;
+      width: 500px;
+  }
+  .btn.btn1{
+      color: white;
+      border:#cd5b0d solid 2px;
+      background-color: #cd5b0d;
+      width: 480px;
+
+      
+
+    }
+    h2{
+      color: #cd5b0d;
+    }
+    .btn-custom{
+      width: 480px;
+      background-color: #cd5b0d;
+      color: white;
+
+
+
+    }
+    .nav-link {
+      color: #cd5b0d;
+      border-radius: 5px;
+     
+
+
+    }
+    #tab-login{
+      background-color: #cd5b0d;
+    }
+    .btn-link{
+      background-color: white;
+      color: #cd5b0d;
+      border-style: none;
+    }
+    .form-check-input{
+      background-color: #cd5b0d;
+      border-color: #cd5b0d;
+    }
+    .p{
+      color: #cd5b0d;
+    }
+
+    .nav-item .nav-link.active {
+      display: none; /* يخفي عنصر Login تمامًا */
+    }
+    /* .text-center{
+      display: flex;
+      padding-left: 140px;
+      margin-top: 10px;
+
+    } */
+    .r{
+      margin-top: 10px;
+      
+    }
+    .nav-item .nav-link{
+      margin-left: 190px;
+    }

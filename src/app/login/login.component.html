@@ -1,0 +1,111 @@
+
+
+    <div class="container mt-3">
+    <br>
+  
+    <div class="text-center">
+      <p>Sign in with:</p>
+      <button  type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-link btn-floating mx-1">
+        <i class="fab fa-facebook-f"></i>
+      </button>
+  
+      <button  type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-link btn-floating mx-1">
+        <i class="fab fa-google"></i>
+      </button>
+  
+      <button  type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-link btn-floating mx-1">
+        <i class="fab fa-twitter"></i>
+      </button>
+  
+      <button  type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-link btn-floating mx-1">
+        <i class="fab fa-github"></i>
+      </button>
+    </div>
+    <p class="text-center">or</p>
+    <div class="tab-content">
+      
+      <div id="login" class="container tab-pane active"><br>
+        <form #login="ngForm" (ngSubmit)="logIn(login.value)"  class="common-form">
+          <div class="mb-3">
+            <input type="email" ngModel class="form-control" id="email" autocomplete="on" placeholder="Enter email" name="email">
+          </div>
+          <div class="mb-3">
+            <input type="password" ngModel class="form-control" id="pwd" autocomplete="on" placeholder="Enter password" name="pwd">
+          </div>
+          <div class="form-check">
+          </div>
+          <div class="row mb-4">
+            <div class="col-md-6 d-flex justify-content-center">
+              <div class="form-check mb-3 mb-md-0">
+                <input class="form-check-input"  type="checkbox" value="" id="loginCheck" checked />
+                <label class="form-check-label" for="loginCheck"> Remember me </label>
+              </div>
+            </div>
+            <div class="col-md-6 d-flex justify-content-center">
+              <a class="p" href="#!">Forgot password?</a>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-custom">Sign in</button>
+          <div class="text-center">
+            <p class="r" >Not a member?  </p>
+            <ul class="nav" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" data-bs-toggle="tab" href="#login">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#register">Register</a>
+              </li>
+            </ul>
+          </div>
+        </form>
+      </div>
+      <form #login="ngForm" (ngSubmit)="logIn(login.value)"  class="common-form"> 
+      <div id="register" class="container tab-pane fade"><br>
+        <!-- Name input -->
+      <div data-mdb-input-init class="form-outline mb-4">
+        <input type="text" ngModel class="form-control" id="name"  autocomplete="on" placeholder="Name" name="name"/>
+
+
+      </div>
+
+      <!-- Username input -->
+      <div data-mdb-input-init class="form-outline mb-4">
+        <input type="text" ngModel class="form-control" id="username"  autocomplete="on" placeholder="Username" name="username"/>
+
+
+      </div>
+
+      <!-- Email input -->
+      <div data-mdb-input-init class="form-outline mb-4">
+        <input type="email" ngModel class="form-control" id="email"  autocomplete="on" placeholder="Email" name="email"/>
+
+
+      </div>
+
+      <!-- Password input -->
+      <div data-mdb-input-init class="form-outline mb-4">
+        <input type="password" ngModel class="form-control" id="registerPassword"  autocomplete="on" placeholder="Password" name="Password"/>
+
+
+      </div>
+
+      <!-- Repeat Password input -->
+      <div data-mdb-input-init class="form-outline mb-4">
+        <input type="password" ngModel class="form-control" id="registerRepeatPassword"  autocomplete="on" placeholder="Repeat password" name="repeatpassword"/>
+      </div>
+
+      <!-- Checkbox -->
+      <div class="form-check d-flex justify-content-center mb-4">
+        <input class="form-check-input me-2" type="checkbox" value="" id="registerCheck" checked
+          aria-describedby="registerCheckHelpText" />
+        <label class="form-check-label" for="registerCheck">
+          I have read and agree to the terms
+        </label>
+      </div>
+
+      <!-- Submit button -->
+      <button type="submit" data-mdb-button-init data-mdb-ripple-init class="btn btn-custom btn-block mb-3">Sign in</button>
+      </div>
+    </form>
+    </div>
+  </div>

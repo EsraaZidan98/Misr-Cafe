@@ -1,0 +1,139 @@
+.section1 {
+    background-image: url(Picture5.png);
+    width: 1519px;
+    height: 90vh;
+    background-size: cover;    
+    background-position: center;  
+    background-repeat: no-repeat; 
+}
+
+.section4{
+    background-image: url(section3.png);
+    width: 1519px;
+    height: 110vh;
+    background-size: cover;    
+    background-position: center;  
+    background-repeat: no-repeat; 
+    padding-left: 0px;
+}
+.section3{
+  background-image: url(section2.png);
+    width: 1519px;
+    height: 105vh;
+    background-size: cover;    
+    background-position: center;  
+    background-repeat: no-repeat; 
+    display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px; 
+}
+.slider-container {
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+    padding-top: 130px;
+  }
+  .label_text{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+
+  }
+  
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slide {
+    min-width: 100%;
+    box-sizing: border-box;
+  }
+  
+  img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  /* button.prev,
+  button.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgb(255, 255, 255);
+    color: #cd5b0d;
+    border:#cd5b0d solid 2px !important;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 50px;
+    gap: 20px;
+
+  } */
+  
+  /* button.prev {
+    left: 0;
+  }
+  
+  button.next {
+    right: 0;
+  } */
+  
+  button:hover {
+    background-color: #cd5b0d;
+    color: white;
+  }
+  
+  .typed-string {
+    color:#EDE7D9;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 40px;
+    font-size: 38px;
+  }
+  .btn{
+  color: #cd5b0d;
+  border:#cd5b0d solid 2px
+}
+.btn:hover{
+  background-color: #cd5b0d;
+  color: white;
+}
+
+.sliders-wrapper {
+  display: flex;
+  gap: 20px; /* المسافة بين السلايدرات */
+}
+
+.slider-container {
+  position: relative;
+  width: 100%;
+  max-width: 300px; /* عرض كل سلايدر */
+  overflow: hidden;
+  transition: transform 0.5s ease;
+
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.slider img {
+  width: 100%;
+  height: auto;
+}
+
+/* .prev-button, .next-button {
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  transform: translateY(-50%);
+} */
