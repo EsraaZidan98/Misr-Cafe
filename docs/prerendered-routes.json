@@ -1,0 +1,16 @@
+{
+  "routes": [
+    "/about",
+    "/buy",
+    "/cart",
+    "/coffee",
+    "/contactus",
+    "/home",
+    "/login",
+    "/machinery",
+    "/machines",
+    "/other",
+    "/privacy",
+    "/tools"
+  ]
+}
